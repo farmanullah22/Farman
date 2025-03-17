@@ -14,8 +14,8 @@ const About = () => {
                 <div className='mt-5 md:hidden'>
                     <img src={avatar} alt="" className='bg-gray-700 rounded-2xl' />
                 </div>
-                <p className='mt-4 text-gray-300 text-xl font-semibold'>Hi! I'm Rohit Singh, a passionate Full-Stack Developer with expertise in the MERN stack, WordPress, and SEO. With a strong foundation in modern web development and an eye for detail, I create elegant, user-friendly web solutions tailored to meet client needs.</p>
-                <p className='mt-2 text-gray-300 text-xl font-semibold'>My journey into tech began from a non-IT background, and I've embraced every challenge to hone my skills in development, problem-solving, and teamwork. I’m always eager to learn and explore new technologies to deliver cutting-edge web experiences.When I’m not coding, I enjoy sharing my knowledge through my YouTube channel, where I teach JavaScript, MERN stack, and WordPress concepts. Let’s connect and build something amazing together!</p>
+                <p className='mt-4 text-gray-300 text-xl font-semibold'>Hi! I'm Farman Ullah, a passionate Full-Stack Developer with expertise in the new Technologies. With a strong foundation in modern web development and an eye for detail, I create elegant, user-friendly web solutions tailored to meet client needs.</p>
+                <p className='mt-2 text-gray-300 text-xl font-semibold'>My journey into tech began from a non-IT background, and I've embraced every challenge to hone my skills in development, problem-solving, and teamwork. I’m always eager to learn and explore new technologies to deliver cutting-edge web experiences.When I’m not coding, I enjoy sharing my knowledge in Our codexmedia Society, where I teach JavaScript, node.js, and new concepts. Let’s connect and build something amazing together!</p>
                 {/* service section */}
                 <h1 className='text-2xl text-white font-bold mt-7'>What I'm Doing</h1>
                 <div className='grid md:grid-cols-2 gap-6 mt-7'>

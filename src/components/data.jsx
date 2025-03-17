@@ -2,9 +2,9 @@ import { MdOutlineWeb } from "react-icons/md";
 import { FaLaptopCode, FaMobileAlt, FaCamera   } from "react-icons/fa";
 import testimonial1 from "../assets/girl.png"
 import testimonial2 from "../assets/boy.png"
-import Digital from "../assets/Digital.png"
+import Digital from "../assets/Digital.jpg"
 import Clothify from "../assets/Clothify.png"
-import Nike from "../assets/Nike.png"
+import Nike from "../assets/Nike.jpg"
 
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -67,38 +67,38 @@ export const testimonials = [
 export const timeline = [
     {
       icon: workIcon,
-      date: '2011 - present',
-      title: 'Creative Director',
-      subtitle: 'Miami, FL',
-      desc: 'Creative Direction, User Experience, Visual Design, Project Management, Team Leading',
+      date: '2023 - present',
+      title: 'Web Developer',
+      subtitle: 'Website Development',
+      desc: 'Web Development, Frontend & Backend, Team Leading',
     },
     {
       icon: workIcon,
-      date: '2010 - 2011',
-      title: 'Art Director',
-      subtitle: 'San Francisco, CA',
-      desc: 'Creative Direction, User Experience, Visual Design, SEO, Online Marketing',
+      date: '2023 - 2024',
+      title: 'Full Stack',
+      subtitle: 'Full Stack Developer',
+      desc: 'Creating a full fledg website, Team leading',
     },
     {
       icon: workIcon,
-      date: '2008 - 2010',
+      date: '2023 - 2024',
       title: 'Web Designer',
-      subtitle: 'Los Angeles, CA',
+      subtitle: 'Designing',
       desc: 'User Experience, Visual Design',
     },
     {
       icon: workIcon,
-      date: '2021 - 2023',
+      date: '2023 - 2025',
       title: 'Customer Support Executive',
       subtitle: 'Lyfesolve Marketing Service',
       desc: 'User Experience, Visual Design',
     },
     {
       icon: schoolIcon,
-      date: '2018-2021',
-      title: 'Bachelor of Science (BSC)',
-      subtitle: 'Bangabasi Morning College',
-      desc: 'Strategy, Social Media',
+      date: '204-2025',
+      title: 'Software House',
+      subtitle: 'Peshware',
+      desc: 'Strategy, Solve Tech Problem',
     },
     {
       icon: schoolIcon,
@@ -109,40 +109,40 @@ export const timeline = [
     },
     {
       icon: schoolIcon,
-      date: '2016',
-      title: 'Madhyamik (10th)',
-      subtitle: 'A.R.N.C Vidhyalaya',
-      desc: 'Creative Direction, Visual Design',
+      date: '204-2025',
+      title: 'Software House',
+      subtitle: 'Peshware',
+      desc: 'Strategy, Solve Tech Problem',
     },
     { icon: starIcon },
   ];
 
 export const projects = [
     {
-      title: "Digital Marketing",
+      title: "Thinking Model School",
       description:
-        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea accusantium impedit facere. Sequi, deserunt recusandae.",
-      techStack: ["Next.js", "MongoDB", "Stripe", "Tailwind"],
-      link: "https://business420.netlify.app/",
-      github: 'https://github.com/rohitsingh93300/YTBusiness',
+        "Thinking Model School promotes innovation, critical thinking, and academic excellence through a modern curriculum and dedicated educators, preparing students for a successful future.",
+      techStack: ["Node.js", "MongoDB", "Tailwind"],
+      link: " https://engrkhizarkhan.github.io/Thinking-School-Website/",
+      github: 'https://github.com/Engrkhizarkhan/Thinking-School-Website',
       image: Digital, // Replace with your project screenshot
     },
     {
-      title: "Nike Shoes",
+      title: "Food Shop",
       description:
-        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea accusantium impedit facere. Sequi, deserunt recusandae.",
+        "Our shop provides a wide range of high-quality products, combining affordability, convenience, and excellent customer service. With a seamless shopping experience.",
       techStack: ["React", "Node.js", "MongoDB", "shadcn UI"],
-      link: "https://nike-topaz-delta.vercel.app/",
-      github: 'https://github.com/rohitsingh93300/YT-Nike',
+      link: "https://dev-aneelas.pantheonsite.io/shop/",
+      github: 'https://dev-aneelas.pantheonsite.io/shop/',
       image: Nike, // Replace with your project screenshot
     },
     {
-      title: "Clothify",
+      title: "LawParks",
       description:
-        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea accusantium impedit facere. Sequi, deserunt recusandae.",
+        "LawParks is a dedicated platform offering legal insights, expert advice, and professional services. With a user-friendly interface and reliable resources, we connect individuals with the legal assistance they need for informed decision-making.",
       techStack: ["Next.js", "MongoDB", "Clerk Authentication"],
-      link: "https://clothify-two.vercel.app/",
-      github: 'https://github.com/rohitsingh93300/YT-Clothify',
+      link: "http://lawparks.org",
+      github: 'https://github.com/Engrkhizarkhan/law-farm',
       image: Clothify, // Replace with your project screenshot
     },
   ];

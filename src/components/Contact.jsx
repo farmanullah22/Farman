@@ -10,7 +10,7 @@ const Contact = () => {
                 <h1 className='text-white font-bold text-3xl mb-2'>Contact Me</h1>
                 <hr className='border-3 text-yellow-500 w-12 rounded-4xl' />
                 <div className='mt-10'>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3682.1184728450626!2d88.32013047600044!3d22.649371030150828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4d552f1bcc7d6f4f%3A0xd255053387b8dc4a!2sWebelite%20Builders!5e0!3m2!1sen!2sin!4v1741963824732!5m2!1sen!2sin" width="600" height="450" loading="lazy" className='w-full rounded-2xl'></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1739.5030828370284!2d71.52673583971121!3d33.96342474317599!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38d9182d8f5ce6b5%3A0xc7ccb333f2b5d3e6!2sSarhad%20University%20of%20Science%20%26%20Information%20Technology!5e0!3m2!1sen!2s!4v1742246418305!5m2!1sen!2s" width="600" height="450" loading="lazy" className='w-full rounded-2xl'></iframe>
                 </div>
                 <div className='mt-10'>
                     <h1 className='text-white font-bold text-2xl mb-2'>Contact Form</h1>

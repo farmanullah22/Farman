@@ -31,7 +31,7 @@ const ResponsiveMenu = ({ open, setOpen }) => {
                         </div>
                         <div className='text-white'>
                             <h1 className='font-semibold'>EMAIL</h1>
-                            <p className='text-gray-200'>rohitsingh@gmail.com</p>
+                            <p className='text-gray-200'>eng.farmanullah00@gmail.com</p>
                         </div>
                     </div>
                     <div className='flex gap-3 items-center'>
@@ -40,7 +40,7 @@ const ResponsiveMenu = ({ open, setOpen }) => {
                         </div>
                         <div className='text-white'>
                             <h1 className='font-semibold'>PHONE</h1>
-                            <p className='text-gray-200'>+91 933-0062-799</p>
+                            <p className='text-gray-200'>+92 307-559-103</p>
                         </div>
                     </div>
                     <div className='flex gap-3 items-center'>
@@ -49,7 +49,7 @@ const ResponsiveMenu = ({ open, setOpen }) => {
                         </div>
                         <div className='text-white'>
                             <h1 className='font-semibold'>BIRTHDAY</h1>
-                            <p className='text-gray-200'>6 March, 2001</p>
+                            <p className='text-gray-200'>17 February, 2005</p>
                         </div>
                     </div>
                     <div className='flex gap-3 items-center'>
@@ -58,7 +58,7 @@ const ResponsiveMenu = ({ open, setOpen }) => {
                         </div>
                         <div className='text-white'>
                             <h1 className='font-semibold'>LOCATION</h1>
-                            <p className='text-gray-200'>Kolkata, India</p>
+                            <p className='text-gray-200'>Pakistan, Peshware</p>
                         </div>
                     </div>
                 </div>
