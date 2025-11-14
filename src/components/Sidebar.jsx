@@ -1,5 +1,5 @@
 import React from 'react'
-import avatar from "../assets/avatar.webp"
+import avatar from "../assets/Farman.jpg"
 import { FaMapMarkerAlt, FaRegCalendarAlt, FaRegEnvelope } from 'react-icons/fa'
 import { MdOutlinePhoneIphone } from 'react-icons/md'
 
@@ -29,7 +29,7 @@ const Sidebar = () => {
                         </div>
                         <div className='text-white'>
                             <h1 className='font-semibold'>PHONE</h1>
-                            <p className='text-gray-200'>+91 307-559-103</p>
+                            <p className='text-gray-200'>+92 307-559-103</p>
                         </div>
                     </div>
                     <div className='flex gap-3 items-center'>
@@ -47,7 +47,7 @@ const Sidebar = () => {
                         </div>
                         <div className='text-white'>
                             <h1 className='font-semibold'>LOCATION</h1>
-                            <p className='text-gray-200'>Pakistan, Peshware</p>
+                            <p className='text-gray-200'>Pakistan, Peshawar</p>
                         </div>
                     </div>
                 </div>

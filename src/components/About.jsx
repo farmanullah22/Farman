@@ -1,7 +1,8 @@
 import React from 'react'
 import Navbar from './Navbar'
-import avatar from "../assets/avatar.webp"
+import avatar from "../assets/Farman.jpg"
 import { service, testimonials } from './data'
+import AnimateOnScroll from './AnimateOnScroll'
 
 
 const About = () => {
@@ -21,15 +22,19 @@ const About = () => {
                 <div className='grid md:grid-cols-2 gap-6 mt-7'>
                     {
                         service.map((item, index) => {
-                            return <div className='bg-gray-700 border shadow p-5 text-white flex gap-5 items-start rounded-xl' key={index}>
-                                <div className='text-6xl text-yellow-500'>
-                                    {item.logo}
-                                </div>
-                                <div>
-                                    <h1 className='font-bold text-2xl'>{item.title}</h1>
-                                    <p className='text-xl text-gray-300'>{item.desc}</p>
-                                </div>
-                            </div>
+                            return (
+                                <AnimateOnScroll key={index} className="animate-fade-up">
+                                    <div className='bg-gray-700 border shadow p-5 text-white flex gap-5 items-start rounded-xl card-hover'>
+                                        <div className='text-6xl text-yellow-500'>
+                                            {item.logo}
+                                        </div>
+                                        <div>
+                                            <h1 className='font-bold text-2xl'>{item.title}</h1>
+                                            <p className='text-xl text-gray-300'>{item.desc}</p>
+                                        </div>
+                                    </div>
+                                </AnimateOnScroll>
+                            )
                         })
                     }
                 </div>
@@ -38,16 +43,20 @@ const About = () => {
                 <div className='flex flex-col md:flex-row gap-14 md:gap-7 mt-14'>
                     {
                         testimonials.map((item, index) => {
-                            return <div className='bg-gray-700 border border-white rounded-xl shadow py-4 px-6' key={index}>
-                                <div className='flex gap-5'>
-                                    <img src={item.img} alt="" className='h-20 w-20 bg-gray-800 rounded-2xl -mt-14 border-2 shadow-2xl border-gray-600' />
-                                    <div>
-                                        <h1 className='text-white font-bold text-xl'>{item.name}</h1>
-                                        <p>⭐⭐⭐⭐⭐</p>
+                            return (
+                                <AnimateOnScroll key={index} className="animate-scale">
+                                    <div className='bg-gray-700 border border-white rounded-xl shadow py-4 px-6 card-hover'>
+                                        <div className='flex gap-5'>
+                                            <img src={item.img} alt="" className='h-20 w-20 bg-gray-800 rounded-2xl -mt-14 border-2 shadow-2xl border-gray-600' />
+                                            <div>
+                                                <h1 className='text-white font-bold text-xl'>{item.name}</h1>
+                                                <p>⭐⭐⭐⭐⭐</p>
+                                            </div>
+                                        </div>
+                                        <p className='text-gray-300 text-lg pr-6 mt-2'>{item.para}</p>
                                     </div>
-                                </div>
-                                <p className='text-gray-300 text-lg pr-6 mt-2'>{item.para}</p>
-                            </div>
+                                </AnimateOnScroll>
+                            )
                         })
                     }
                 </div>

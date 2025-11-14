@@ -1,5 +1,5 @@
 import React from 'react'
-import avatar from "../assets/avatar.webp"
+import avatar from "../assets/Farman.jpg"
 import { FaMapMarkerAlt, FaRegCalendarAlt, FaRegEnvelope } from 'react-icons/fa'
 import { MdOutlinePhoneIphone } from 'react-icons/md'
 import { NavLink } from 'react-router-dom'
@@ -11,8 +11,8 @@ const ResponsiveMenu = ({ open, setOpen }) => {
                 <div className='rounded-xl p-3 flex items-center justify-center'>
                     <img src={avatar} alt="" className='w-[200px] bg-gray-700 rounded-2xl' />
                 </div>
-                <h1 className='text-white font-bold text-center text-3xl my-2'>Rohit Singh</h1>
-                <p className='text-white bg-gray-700 rounded-md py-2 text-center mx-4 mb-7'>MernStack Developer</p>
+                <h1 className='text-white font-bold text-center text-3xl my-2'>Farman Ullah</h1>
+                <p className='text-white bg-gray-700 rounded-md py-2 text-center mx-4 mb-7'>Full Stack Developer</p>
                 <hr className='text-gray-700 mx-4 border-2' />
 
                 <nav className='mt-5'>
@@ -24,41 +24,41 @@ const ResponsiveMenu = ({ open, setOpen }) => {
                     </ul>
                 </nav>
 
-                <div className='mt-7 px-4 space-y-7'>
-                    <div className='flex gap-3 items-center'>
+                <div className='mt-7 px-4 space-y-6'>
+                    <div className='flex gap-3 items-start'>
                         <div className='bg-gray-700 p-2 rounded-md shadow'>
                             <FaRegEnvelope className='text-yellow-500 text-2xl' />
                         </div>
-                        <div className='text-white'>
+                        <div className='text-white flex-1'>
                             <h1 className='font-semibold'>EMAIL</h1>
-                            <p className='text-gray-200'>eng.farmanullah00@gmail.com</p>
+                            <p className='text-gray-200 break-all'>eng.farmanullah00@gmail.com</p>
                         </div>
                     </div>
-                    <div className='flex gap-3 items-center'>
+                    <div className='flex gap-3 items-start'>
                         <div className='bg-gray-700 p-2 rounded-md shadow'>
                             <MdOutlinePhoneIphone className='text-yellow-500 text-2xl' />
                         </div>
-                        <div className='text-white'>
+                        <div className='text-white flex-1'>
                             <h1 className='font-semibold'>PHONE</h1>
-                            <p className='text-gray-200'>+92 307-559-103</p>
+                            <p className='text-gray-200 break-words'>+92 307-559-103</p>
                         </div>
                     </div>
-                    <div className='flex gap-3 items-center'>
+                    <div className='flex gap-3 items-start'>
                         <div className='bg-gray-700 p-2 rounded-md shadow'>
                             <FaRegCalendarAlt className='text-yellow-500 text-2xl' />
                         </div>
-                        <div className='text-white'>
+                        <div className='text-white flex-1'>
                             <h1 className='font-semibold'>BIRTHDAY</h1>
                             <p className='text-gray-200'>17 February, 2005</p>
                         </div>
                     </div>
-                    <div className='flex gap-3 items-center'>
+                    <div className='flex gap-3 items-start'>
                         <div className='bg-gray-700 p-2 rounded-md shadow'>
                             <FaMapMarkerAlt className='text-yellow-500 text-2xl' />
                         </div>
-                        <div className='text-white'>
+                        <div className='text-white flex-1'>
                             <h1 className='font-semibold'>LOCATION</h1>
-                            <p className='text-gray-200'>Pakistan, Peshware</p>
+                            <p className='text-gray-200 break-words'>Pakistan, Peshawar</p>
                         </div>
                     </div>
                 </div>

@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { NavLink } from 'react-router-dom'
-import Logo from "../assets/Logo.png"
+// Use transparent logo if available
+import Logo from "../assets/Logo.transparent.png"
 import { HiMenuAlt1, HiMenuAlt3 } from 'react-icons/hi'
 import ResponsiveMenu from './ResponsiveMenu'
 
